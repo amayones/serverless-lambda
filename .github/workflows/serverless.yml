@@ -31,5 +31,5 @@ jobs:
       - name: Deploy to AWS Lambda
         run: |
           aws lambda update-function-code \
-            --function-name CreateUsers \
+            --function-name CreateUser \
             --zip-file fileb://function.zip
